@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sauca Global</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <div class="logo">
+                    <h1>Sauca<span>Global</span></h1>
+                    <h2>Salud Mental y Bienestar Integral</h2>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#comoHacer">¿Cómo Hacer?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#precios">Precios</a>
+                    </li>
+                    <li class="nav-item">
+                        <button onclick="window.location.href='#turnos'" type="button" class="btn btn-primary">Iniciar consulta</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="header">
+        <div id="heroText">
+            <h3>Todos merecemos ser felices</h3>
+            <p>Brindamos sesiones de terapia personalizadas, efectivas y completamente confidenciales. Agenda una reunión virtual con nuestro equipo para que podamos asistirte en cuál es nuestra recomendación para vos.</p>
+            <button onclick="window.location.href='#turnos'" type="button" class="btn btn-primary">Agenda una sesión gratuita</button>
+        </div>
+        <div id="heroImage">
+            <img src="images/young-woman-talking-online.png" alt="woman with laptop talking">
+        </div>
+    </div>
+    <div id="contenido">
+        <div id="nosotros">
+            <h4>Nosotros</h4>
+            <p id="intro">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci pariatur impedit quo vel suscipit placeat blanditiis vero qui. Eos necessitatibus ipsum, deserunt illum consectetur iure facere obcaecati magnam at quis.</p>
+            <div class="box-container">
+                <div class="box box-3">
+                    <img src="images/profesionales.png" alt="">
+                    <h5>Profesionales Certificados</h5>
+                    <p>Todos nuestros profesionales están certificados etc...</p>
+                </div>
+                <div class="box box-3">
+                    <img src="images/acompanamiento.png" alt="">
+                    <h5>Acompañamiento</h5>
+                    <p>No estás sólo. Además de tener contacto con tu terapeuta, vas a poder charlar con nuestro equipo de salud para responder cualquier inquietud.</p>
+                </div>
+                <div class="box box-3">
+                    <img src="images/practico.png" alt="">
+                    <h5>Practicidad</h5>
+                    <p>Tu eliges en qué horarios te es más conveniente tener tus sesiones.</p>
+                </div>
+                <div class="box box-3">
+                    <img src="images/accesible.png" alt="">
+                    <h5>Precio Accesible</h5>
+                    <p> Nuestros precios están contemplados para que todos puedan tener ayuda.</p>
+                </div>
+                <div class="box box-3">
+                    <img src="images/supervision.png" alt="">
+                    <h5>Supervisión</h5>
+                    <p>Todos nuestros terapeutas tienen sesiones mensuales en los que son capacitados y supervisados para asegurarnos de ofrecer la mayor calidad de atención.</p>
+                </div>
+                <div class="box box-3">
+                    <img src="images/seguridad.png" alt="">
+                    <h5>Seguridad</h5>
+                    <p>Todas las sesiones son privadas y no son compartidas con nadie.</p>
+                </div>
+            </div>
+            <div id="comoHacer">
+                <h4>¿Cómo hacer?</h4>
+                <div id="pasos" class="box-container">
+                    <div class="box box-4">
+                        <img src="images/1.png" alt="1">
+                        <p>Agenda una reunión virtual con nuestro director de salud</p>
+                    </div>
+                    <div class="box box-4">
+                        <img src="images/2.png" alt="2">
+                        <p>Reúnete con él para que nuestro equipo evalúe con quién cree que es mejor para ti</p>
+                    </div>
+                    <div class="box box-4">
+                        <img src="images/3.png" alt="3">
+                        <p>Elige tu disponibilidad</p>
+                    </div>
+                    <div class="box box-4">
+                        <img src="images/4.png" alt="4">
+                        <p>Reúnete en la frecuencia elegida con tu terapeuta</p>
+                    </div>
+                </div>
+            </div>
+            <div id="testimonios">
+                <h5>Nuestros pacientes te cuentan su experiencia</h5>
+                <div class="box-container">
+                    <div class="quote">
+                        <p>"Hace 9 años comencé a hacer terapia con Sebastián y puedo decir que mi vida cambió por completo. Me costaba levantarme de mi cama, ni que hablar de poder tener relaciones saludables con familia, amigos y pareja. Recomiendo a todos que comiencen un camino de terapia."<br><span>Kenneth S., 31 años.</span></p>
+                        <img src="images/man-with-bike.png" alt="">
+                    </div>
+                    <div class="quote">
+                        <img src="images/woman-meditating.png" alt="">
+                        <p class="bg-blue">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum eaque voluptates excepturi impedit laborum corporis fuga veritatis dignissimos molestias saepe. Eveniet numquam explicabo architecto iure nisi quod reprehenderit tempora quasi."<br><span>María L., 47 años.</span></p>
+                    </div>
+                </div>
+            </div>
+            <div id="precios">
+                <h4>Precios</h4>
+                <div class="box-container">
+                    <div class="box box-3">
+                        <img src="images/box-1.png" alt="">
+                        <h5>1 sesión</h5>
+                        <p>US$60 c/ sesión</p>
+                    </div>
+                    <div class="box box-3">
+                        <img src="images/box-2.png" alt="">
+                        <h5>4 sesiones</h5>
+                        <p>US$50 c/ sesión<br>(opción más popular)</p>
+                    </div>
+                    <div class="box box-3">
+                        <img src="images/box-3.png" alt="">
+                        <h5>12 sesiones</h5>
+                        <p>US$45 c/ sesión</p>
+                    </div>
+                </div>
+            </div>
+            <div id="turnos">
+                <h4>Saca tu turno</h4>
+                <!-- Principio del widget integrado de Calendly -->
+                <div class="calendly-inline-widget" data-url="https://calendly.com/pruebasauca?primary_color=3457c6" style="min-width:320px;height:650px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                <!-- Final del widget integrado de Calendly -->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="logo">
+            <h1>Sauca<span>Global</span></h1>
+            <h2>Salud Mental y Bienestar Integral</h2>
+        </div>
+        <p>(No estoy muy seguro de que quieren que diga el disclaimer pero la idea sería que vaya acá)</p>
+        <p>Copyright © 2023 Sauca Global</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

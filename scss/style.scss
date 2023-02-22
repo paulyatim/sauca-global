@@ -1,0 +1,194 @@
+@import "variables";
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(249,249,245);
+}
+.navbar {
+    padding: 10px;
+}
+.navbar-nav {
+    width: 100%;
+    justify-content: space-evenly;
+    .nav-item {
+        margin: 0 10px;
+    }
+}
+.navbar-brand {
+    margin-right: 0;
+}
+.logo {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    h1 {
+        color: $blue;
+        font-size: 48px;
+        line-height: 48px;
+        margin: 0;
+        span {
+            color: $light-blue;
+        }
+    }
+    h2 {
+        font-size: 16px;
+        margin: 0;
+    }
+}
+.btn-primary {
+    background-color: $blue !important;
+    border-color: $blue !important;
+}
+.btn-primary:hover {
+    background-color: $blue-hover !important;
+    border-color: $blue-hover !important;
+}
+#header {
+    margin: 60px 0;
+    display: flex;
+    align-items: flex-start;
+    #heroImage {
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        img {
+            width: 80%;
+        }
+    }
+    #heroText {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        align-items: baseline;
+        align-self: stretch;
+        justify-content: center;
+        padding-left: 7%;
+        h3 {
+            font-size: 48px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+}
+#contenido {
+    margin-top: 20px;
+    h4 {
+        font-size: 48px;
+        font-weight: bold;
+        text-align: center;
+    }
+    #intro {
+        margin: 50px 10%;
+        font-size: 20px;
+    }
+}
+.box-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
+    .box-3 {
+        width: 30%;
+    }
+    .box-4 {
+        width: 20%;
+    }
+    .box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 0 10px;
+        img {
+            width: 70%;
+        }
+        h5 {
+            font-size: 24px;
+            font-weight: bold;
+            padding: 5px 0;
+        }
+    }
+}
+#comoHacer {
+    margin: 100px auto;
+}
+#pasos {
+    margin: 50px auto;
+    width: 70%;
+    img {
+        width: 100px;
+    }
+    p {
+        padding: 20px 0;
+    }
+}
+#testimonios {
+    h5 {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .box-container {
+        flex-direction: column;
+        margin: 50px auto;
+        .quote {
+            margin: 50px auto;
+            display: flex;
+            flex-direction: row;
+            p {
+                height: fit-content;
+                border-radius: 10px;
+                background-color: $light-blue;
+                padding: 20px;
+                font-size: 20px;
+                span {
+                    float: right;
+                    font-weight: bold;
+                }
+            }
+            .bg-blue {
+                background-color: $blue;
+                color: white;
+            }
+            img {
+                width: 30%;
+            }
+        }
+    }
+}
+#precios {
+    margin: 50px 0;
+    h4 {
+        margin: 50px;
+    }
+}
+footer {
+    background-color: $blue;
+    color: $white;
+    padding: 20px;
+    text-align: center;
+    .logo {
+        h1 {
+            color: $white;
+            font-size: 36px;
+            line-height: 36px;
+            margin: 0;
+            span {
+                color: $light-blue;
+            }
+        }
+        h2 {
+            font-size: 12px;
+            margin: 0;
+        }
+    }
+    p {
+        margin: 0;
+        padding: 10px;
+    }
+}
